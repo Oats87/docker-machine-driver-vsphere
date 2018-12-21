@@ -1,0 +1,79 @@
+hash: b7b95a504f4b526aff92d5689f61d9deaaed4b364135883ccbae182ce593ff19
+updated: 2018-12-20T15:39:44.375822-08:00
+imports:
+- name: github.com/Azure/go-ansiterm
+  version: d6e3b3328b783f23731bc4d058875b0371ff8109
+  subpackages:
+  - winterm
+- name: github.com/docker/docker
+  version: 92b34ec9c6a6be8c1b5751b1572b6293c7708423
+  subpackages:
+  - pkg/term
+  - pkg/term/windows
+- name: github.com/docker/machine
+  version: 702c267fc3d486f1ab9709ffc0d31935be3375dc
+  subpackages:
+  - libmachine/drivers
+  - libmachine/drivers/plugin
+  - libmachine/drivers/plugin/localbinary
+  - libmachine/drivers/rpc
+  - libmachine/log
+  - libmachine/mcnflag
+  - libmachine/mcnutils
+  - libmachine/ssh
+  - libmachine/state
+  - libmachine/version
+  - version
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: 5c8c8bd35d3832f5d134ae1e1e375b69a4d25242
+- name: github.com/sirupsen/logrus
+  version: 2067ea4241cec716fbd0ac90f42f339f963bff92
+- name: github.com/stretchr/testify
+  version: 5b93e2dc01fd8fbf32aa74a198b0ebe78f6f6b6f
+  subpackages:
+  - assert
+- name: github.com/vmware/govmomi
+  version: cabbae55b35b107d34dd40d48195488882ed2988
+  subpackages:
+  - find
+  - guest
+  - list
+  - nfc
+  - object
+  - property
+  - session
+  - task
+  - vim25
+  - vim25/debug
+  - vim25/methods
+  - vim25/mo
+  - vim25/progress
+  - vim25/soap
+  - vim25/types
+  - vim25/xml
+- name: golang.org/x/crypto
+  version: 81e90905daefcd6fd217b62423c0908922eadb30
+  subpackages:
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - ssh
+  - ssh/terminal
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: 7ddbeae9ae08c6a06a59597f0c9edbc5ff2444ce
+  subpackages:
+  - unix
+  - windows
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 782f4967f2dc4564575ca782fe2d04090b5faca8
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib

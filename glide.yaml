@@ -1,0 +1,13 @@
+package: github.com/oats87/vmware-vsphere-docker-machine-driver
+import:
+- package: github.com/docker/machine
+  version: ^0.16.0
+  subpackages:
+  - libmachine/drivers
+  - libmachine/log
+  - libmachine/mcnflag
+  - libmachine/ssh
+  - libmachine/state
+- package: github.com/stretchr/testify/assert
+- package: github.com/vmware/govmomi
+- package: golang.org/x/net/context
